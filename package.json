@@ -1,0 +1,16 @@
+{
+  "name": "janus_project",
+  "version": "1.0.0",
+  "description": "Take home exercise to write a few e2e tests for an Amazon product.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "chromeTest": "npm run test -- --browser chrome",
+    "cypressTestRunner": "node_modules/.bin/cypress open"
+  },
+  "author": "Alfredo Mendoza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
